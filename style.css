@@ -1,0 +1,122 @@
+body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+.box-gris {
+    background-color: grey;
+    width: 100px;
+    height: 100px;
+    position: relative;
+}
+
+.box-red{
+    background-color: red;
+    width: 60px;
+    height: 60px;
+}
+
+.box-verde{
+    background-color: green;
+    width: 30px;
+    height: 30px;
+}
+
+.greenone{
+    position: absolute;
+    bottom: 0;
+    right: 0px;
+}
+
+.redtwo{
+    position: absolute;
+    bottom: 0;
+
+}
+
+.greentwo {
+    position: absolute;
+    right: 0px;
+}
+
+.greenthree {
+    position: absolute;
+    right: 0;
+}
+
+.redthree {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.redfour {
+    position: absolute;
+    bottom: 0;
+}
+
+.greenfour {
+    position: absolute;
+    bottom: 0;
+}
+
+.redfive {
+    position: absolute;
+    right: 0;
+}
+
+.greenfive {
+    position: absolute;
+    right: 0;
+}
+
+.redsix { 
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+}
+
+.greensix {
+    position: absolute;
+    right: 0;
+    bottom: 30%;
+}
+
+.redseven { 
+    position: absolute;
+    right: 20%;
+}
+
+.greenseven{
+    position: absolute;
+    bottom: 0;
+}
+
+.redeight {
+    position: absolute;
+    right: 19%;
+    bottom: 0;
+
+}
+
+.greeneight {
+    position: absolute;
+    right: 33%;
+    bottom: 0;
+}
+
+.rednine{
+    position: absolute;
+    left: 20%;
+    bottom: 20%;
+
+}
+
+.greennine{
+    position: absolute;
+    left: 35%;
+    bottom: 35%;
+}
